@@ -10,7 +10,7 @@ For example, one of the days analyzed was January 28th, 2018.
 
 
 Clear opportunity for some trades to be made, and after doing all the math and code, this was the cumulative profits for a day of trades. 
-<p style="text-align:center;"><img src=./Resources/Images/btc_profits_jan28.png width="600" height="300"/></p>
+<p style="text-align:center;"><img src=./Resources/Images/btc_profits_jan28.png width="500" height="400"/></p>
 
 This was by the far the most successful day and if you want to learn more or follow along keep scrolling down for a more detailed analysis of what you'll need. 
 
@@ -39,7 +39,7 @@ To get your dev environment setup, and get jupyter labs running follow along:
 - Once your `dev` env is setup go ahead and navigate to the same directory as the newly cloned repo and type `juypter lab` in your console.
 <p style="text-align:center;"><img src=./Resources/Images/jupyterlab.png width="400" height="75"/></p>
 - Thats it! Then your in, you should see the same as the screenshot below.
-<p style="text-align:center;"><img src=./Resources/Images/crypto_arbitrage.png width="600" height="300"/></p>
+<p style="text-align:center;"><img src=./Resources/Images/crypto_arbitrage.png width="700" height="400"/></p>
 
 - If you get an import error for pandas just make sure you have pandas installed in your dev environment with a quick `pip install pandas` command and try again.
 
