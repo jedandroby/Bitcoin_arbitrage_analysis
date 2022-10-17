@@ -6,7 +6,7 @@ This Python notebook `crypto_arbitrage.ipynb` was created in Jupyter labs and an
 The results from this analysis show that the arbitrage opportunites in this dataset were limited to early periods, namely late January. With little to no profitable trades in the Febraury and March months. However those opporunities in late January showed some strong profits when trading with 1BTC trades.
 
 For example, one of the days analyzed was January 28th, 2018. 
-<p><img src=./Resources/Images/BTC_jan_28.png width="500" height="400"/></p>
+![coinbase and bitstamp prices jan 28th](./Resources/Images/BTC_jan_28.png)
 
 
 Clear opportunity for some trades to be made, and after doing all the math and code, this was the cumulative profits for a day of trades. 
@@ -39,7 +39,7 @@ To get your dev environment setup, and get jupyter labs running follow along:
 - Once your `dev` env is setup go ahead and navigate to the same directory as the newly cloned repo and type `juypter lab` in your console.
 <p><img src=./Resources/Images/jupyterlab.png width="400" height="75"/></p>
 - Thats it! Then your in, you should see the same as the screenshot below.
-<p><img src=./Resources/Images/crypto_arbitrage.png width="700" height="300"/></p>
+![crypto arbitrage notebook](./Resources/Images/crypto_arbitrage.png)
 
 - If you get an import error for pandas just make sure you have pandas installed in your dev environment with a quick `pip install pandas` command and try again.
 
