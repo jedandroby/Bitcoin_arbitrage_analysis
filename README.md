@@ -6,7 +6,7 @@ This Python notebook `crypto_arbitrage.ipynb` was created in Jupyter labs and an
 The results from this analysis show that the arbitrage opportunites in this dataset were limited to early periods, namely late January. With little to no profitable trades in the Febraury and March months. However those opporunities in late January showed some strong profits when trading with 1BTC trades.
 
 For example, one of the days analyzed was January 28th, 2018. 
-<p style="text-align:center;"><img src=./Resources/Images/BTC_jan_28.png width="600" height="300"/></p>
+<p style="text-align:center;"><img src=./Resources/Images/BTC_jan_28.png width="700" height="300"/></p>
 
 
 Clear opportunity for some trades to be made, and after doing all the math and code, this was the cumulative profits for a day of trades. 
@@ -20,7 +20,7 @@ First make sure you have cloned the repo to have the files needed.
 
 ## Technologies
 
-<p style="text-align:center;"><img src=./Resources/Images/versions.png width="500" height="100"/></p>
+<p style="text-align:center;"><img src=./Resources/Images/versions.png width="500" height="200"/></p>
 
 The above screenshot shows the python version needed `python 3.7` and the only package you will need installed which is `pandas`. If you have set up a dev environment with anaconda or something similar you will be fine. If not keep scrolling and I will help explain. 
 If you need the dev environment setup and dont know what [Anaconda]( https://docs.anaconda.com/anaconda/install/) is then click on [Anaconda]( https://docs.anaconda.com/anaconda/install/) and follow after you get that setup!
@@ -35,11 +35,11 @@ To get your dev environment setup, and get jupyter labs running follow along:
     - Get setup in your preferred CLI (Gitbash, terminal, etc)
     - `conda create -n dev python=3.7 anaconda`
     - Once you have created the environment type the following to activate and deactivate.
-<p style="text-align:center;"><img src=./Resources/Images/anaconda_dev_env.png width="300" height="100"/></p>
+<p style="text-align:center;"><img src=./Resources/Images/anaconda_dev_env.png width="300" height="150"/></p>
 - Once your `dev` env is setup go ahead and navigate to the same directory as the newly cloned repo and type `juypter lab` in your console.
-<p style="text-align:center;"><img src=./Resources/Images/jupyterlab.png width="500" height="100"/></p>
+<p style="text-align:center;"><img src=./Resources/Images/jupyterlab.png width="400" height="75"/></p>
 - Thats it! Then your in, you should see the same as the screenshot below.
-<p style="text-align:center;"><img src=./Resources/Images/crypto_arbitrage.png width="600" height="500"/></p>
+<p style="text-align:center;"><img src=./Resources/Images/crypto_arbitrage.png width="600" height="300"/></p>
 
 - If you get an import error for pandas just make sure you have pandas installed in your dev environment with a quick `pip install pandas` command and try again.
 
